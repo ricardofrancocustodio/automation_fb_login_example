@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="automation_ui_example" />
         <module name="Vladproject" />
+        <module name="automation_fb" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="automation_fb_login" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

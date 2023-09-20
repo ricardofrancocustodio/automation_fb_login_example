@@ -7,5 +7,17 @@ Feature:
 
 #SECURITY
   # [access Facebook login page]
-  Scenario: TC1 - Access Facebook login page
-    Then the Facebook page is reached out
+  Scenario: Check URL starts with HTTPS
+    Then the URL starts with HTTPS
+
+  Scenario: Should handle with brute force attack
+    Then handle with brute force attack
+
+  Scenario: Should handle with malicious script
+    Then handle with malicious script
+
+  Scenario: Should handle with malicious image
+    Then handle with malicious image
+
+  Scenario: Should handle with malicious reflected XSS
+    Then handle with malicious script reflected XSS
