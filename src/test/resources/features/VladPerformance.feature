@@ -8,5 +8,5 @@ Feature:
 
   #PERFORMANCE
   # [access Facebook login page]
-  Scenario: TC1 - Access Facebook login page
-    Then the Facebook page is reached out
+  Scenario: Check if time response is under 3000ms
+    Then time response is under 3000ms
